@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Register.css">
+    <title>TABLE AND REGISTER FORM</title>
+</head>
+<body>
+    <br>
+   <p><h2><u><i><b>WEB DEVELOPMENT ASSIGNMENT 1.</b></i></u></h2></p>
+   <hr>
+    <div class="review" id="Review">
+
+        <div class="review_box">
+        <div class="review_card">
+    
+            <div class="review_profile">
+                <img src="./No5.jpg">
+            </div>
+            <p><h2>KATO JOSEPH BWANIKA.</h2><h3>REG NO: 2023-B291-11709.</h3><h3>Bsc in CS.</h3></p>
+        </div>
+        </div>
+        </div>
+        <hr>
+    <p><h3>NO.1</h3></p>
+
+<table border="1" width="60%" height="50%" cellpadding="10" cellspacing="10">
+    <tr>
+    <th>NAMES</th>
+    <th>PHONE NUMBER</th>
+    <th> EMAIL</th>
+   </tr>
+   <tr>
+    <td>1. KATO JOSEPH</td>
+    <td>0708419371</td>
+    <td><a href="./">kato.j589@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>2. NYANZI TIMOTHY</td>
+    <td>0789269100</td>
+    <td><a href="./">timo.nyanzi23@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>3. SSERUGUNDA REAGAN</td>
+    <td>0778927223</td>
+    <td><a href="./">reagan.sserugunda@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>4. BABIRYE JOAN</td>
+    <td>0725567441</td>
+    <td><a href="./">babie.joanie76@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>5. SSEBULIME TONNY</td>
+    <td>0787213644</td>
+    <td><a href="./">ssebulimetonny70@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>6. NAMBUUSI WINNIE</td>
+    <td>0753690235</td>
+    <td><a href="./">winnie.nambuusi@gmail.com</a></td>
+   </tr>
+    <tr>
+    <td>7. NAKAMATTE ANNET</td>
+    <td>0701909065</td>
+    <td><a href="./">annet.nakamatte190@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>8. BBAALE RAYMOND</td>
+    <td>0724566342</td>
+    <td><a href="./">bbaale.ray456@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>9. NAKAKEETO STELLA</td>
+    <td>0778927771</td>
+    <td><a href="./">stella.nakakeeto@gmail.com</a></td>
+   </tr>
+   <tr>
+    <td>10. NAKAYANJA ANGELLA</td>
+    <td>0778927771</td>
+    <td><a href="./">nakayanja.angella65@gmail.com</a></td>
+   </tr>
+</table>
+    <form action="results.html" method="get" enctype="multipart/form-data">
+        <br>
+        <p><h3> NO.2 <span><u>REGISTER WITH UMU.</u></span> </h3></p>
+        <div>
+            <label for="name">First Name</label>
+            <input type="text" first name="name" id="name" required>
+        </div><br>
+        <div>
+            <label for="name">Last Name</label>
+            <input type="text" Last name="name" id="name" required>
+        </div><br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>  
+        </div><br>
+        <div>
+            <lable for="age">Age</lable>
+            <input type="number" name="age" id="age" min="1" max="200" step="1">
+        </div><br>
+        <div>
+            <label for="date">Birthdate</label>
+            <input type="date" name="date" id="date">
+        </div><br>
+        <div>
+            <b>Gender</b>  
+          </div><br>
+          <!---radio input type-->
+          <div>
+            <img src="./user-male-circle.png" class="img"><label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male">
+          </div>
+      <div>
+      <img src="./user-female-circle.png" class="img"><label for="female">female</label>
+      <input type="radio" name="gender" id="female" value="female">
+      </div><br>
+<label for="phone">Phone Number:</label>
+<Select name="Course">
+    <option value="tel">+256</option>
+    <option value="tel">+123</option>
+    <option value="tel">+283</option>
+    <option value="tel">+561</option>
+    <option value="tel">+267</option>
+    <option value="tel">+455</option>
+    </Select>
+<input type="tel" id="phone" name="phone" maxlength="10" ><br>
+    <div><br>
+        <label for="color">Choose your color</label>
+        <input type="color" name="color" id="color">
+    </div>
+          <!--drop down menu-->
+          <p><b>Select your University</b></p>
+        <Select name="University">
+            <option value="UMU">Uganda martyrs University.</option>
+            <option value="NKU">Nkumba University .</option>
+            <option value="MUK">Makerere University.</option>
+            <option value="KIU">Kampala International University</option>
+            </Select><br>
+        <!--drop down menu-->
+        <p><b>Select your branch</b></p>
+        <Select name="Course">
+        <option value="Masaka">Masaka</option>
+        <option value="Lubaga">Lubaga</option>
+        <option value="Nkozi-Main">Nkozi-Main</option>
+        <option value="Gulu">Gulu</option>
+        </Select><br>
+
+        <label for=""> <b>Year of Study</b></label><br>
+        <input type="checkbox" name="kkalla" value="yes">
+        <label for=""> 1st</label><br>
+        <input type="checkbox" name="kkalla" value="yes">
+        <label for=""> 2nd</label><br>
+        <input type="checkbox" name="kkalla" value="yes">
+        <label for=""> 3rd</label><br>
+        <input type="checkbox" name="kkalla" value="yes">
+        <label for=""> 4th</label><br>
+        <input type="checkbox" name="kkalla" value="yes">
+        <label for=""> 5th</label><br>
+        <!--drop down menu-->
+        <p><b>Select your course</b></p>
+        <Select name="Course">
+        <option value="Econ">Bsc in Economics and Statistics.</option>
+        <option value="Mathe">Bsc in Financial Mathematics.</option>
+        <option value="BCS"> Bsc in Computer Science.</option>
+        <option value="Chem,Phy">Bsc in Chemistry,Physics.</option>
+        </Select><br>
+           <p><b> Choose Favorite Course Unit</b></p>
+            <div>
+                <label for="web">WEB DEV</label>
+                <input type="radio" name="database" id="programming">
+            </div>
+            <div>
+                <label for="web">DISCRETE MATHE</label>
+                <input type="radio" name="database" id="programming">
+            </div>
+            <div>
+                <label for="web">FUNDAMENTALS OF NETWORKING</label>
+                <input type="radio" name="database" id="programming">
+            </div>
+        </div><br>
+        <div>
+            <label for="file">File</label>
+            <input id="file" type="file" name="file">
+        </div><br>
+      <div>
+          <label for="bio">Bio</label>
+          <textarea id="bio" name="bio">Please type here your message.</textarea>
+      </div><br>
+        <div>
+            <label>
+                Password
+                <input type="password" Name="password" required>
+            </label>
+        </div><br>
+        <div>
+           <span><button type="reset" class="btn">Reset</button></span> 
+           <span><button type="submit" class="btn1">Submit</button></span>
+        </div>
+            <br><br>
+    </form>
+
+</body>
+</html>
